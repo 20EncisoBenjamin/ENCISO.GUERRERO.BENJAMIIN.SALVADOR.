@@ -1,0 +1,20 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\author{benjamin enciso}
+\title{titulo}
+\begin{document}
+\section{Rotacion y Cuaternios}
+\includegraphics[scale=1]{../up1.jpg} 
+\section{Definicion}
+Los ángulos Euler se convierten en tres matrices de rotación, como cada Angulo, cada eje nos genera una sola matriz, es decir que debemos multiplicar todas esas matrices para tener una nueva matriz de rotación. Si multiplicamos una matriz de rotación de un eje por otra matriz de otro eje nos dará la combinación de esas dos rotaciones.
+Sin embargo, la multiplicación de matrices es una multiplicación no conmutativa, el problema con los ángulos Euler es que cuando toca convertirlos a matrices de conversión individuales causara un problema llamado GIMBAL LOCK, esto ocurre debido a las multiplicaciones, del orden de las matrices en la multiplicación si altera el producto, lo que quiere decir es que cada rotación que se haga va a afectar a la anterior ósea, dos ejes en el mismo problema.
+Hay formas de mitigar este problema sin tener que recurrir a cuaternios y es planeando el orden de manera efectiva, por ejemplo:
+Como si tuviéramos un personaje que avanza en dos direcciones  ” x” “y”  y mira hacia arriba y hacia abajo en el eje “z” siempre y cuando no modifiquemos el eje “x” no se perderá la noción al cruzarse estos ejes. En estos casos es cuando entran los cuaternios, en estos casos la diferencia es que no afectan los ángulos entre sí, básicamente el uso de los cuaternios es para que nos permita rotar sin tener que afectar el resto de ejes o poder agregar nuevos ejes.
+
+\end{document}
