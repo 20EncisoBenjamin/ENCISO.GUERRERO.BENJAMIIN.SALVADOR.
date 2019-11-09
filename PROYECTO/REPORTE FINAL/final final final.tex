@@ -19,7 +19,8 @@
 \section*{Benjamin Enciso..........(ing.Mecatronica)}
 \section*{Leonardo Contreras.......(cinematica de robots)}
 \section*{Martin Barajas......(Moran Garabito)}
-\includegraphics[scale=2]{up1.jpg} 
+\includegraphics[scale=1]{upz.jpg}
+\newpage 
 \section*{planteamiento}
 
 Se decidió hacer este proyecto (brazo soldador) porque se ha detectado sobre la imprecisión y la impureza de los operarios al momento de soldar alguna pieza con soldadura MMA, recabando información se contempla que de igual manera hay un gran número de accidentes provocadas en este oficio de soldador.
@@ -53,62 +54,6 @@ El desarrollo de estos sistemas se ha enfocado en mejorar ciertos aspectos como 
 Por lo tanto, dados todas estas utilidades, el diseño propio y construcción de prototipos de brazo robótico para manipulación, posicionamiento, corte láser o escaneo tengan un costo accesible tanto para la industria como para la educación, es un buen tema a considerar como proyectos de desarrollo, por estudiantes de ingeniería mecatrónica.
 \\\\
 El desarrollo en la tecnología, donde se incluyen las computadoras, los actuadores de control retroalimentados, transmisión de potencia a través de engranes, y la tecnología en sensores han contribuido a flexibilizar los mecanismos autómatas para desempeñar tareas dentro de la industria. La investigación en inteligencia artificial desarrolló maneras de emular el procesamiento de información humana con computadoras electrónicas.
-
-\newpage
-
-
-Para el brazo se presenta una articulación con movimiento rotacional y dos angulares. Aunque el brazo articulado pueda realizar el movimiento llamado interpolación lineal (para lo cual requiere mover simultáneamente dos o tres de sus articulaciones), el movimiento natural es el de interpolación por articulación, tanto de rotacional como angular.
-\\
-Se denomina cinemática directa a una técnica que es utilizada en gráficos 3D por computadora, para solucionar y calcular la posicion de partes de una estructura articulada a partir de sus elementos fijos y las transformaciones que se provocan por las articulaciones de la estructura.
-\\\\
-La cinemática inversa se refiere a la utilización de las ecuaciones cinemáticas de un robot
-para determinar los parámetros comunes que proporcionan una posicion deseada del efector
-final.
-\\
-Especificación del movimiento de un robot de manera que su extremo efector logra una
-tarea deseada es conocido como planificación de movimientos. La cinemática inversa transforma el plan de movimiento en trayectorias del actuador en conjuntos para el robot.
-\\\\
-\includegraphics[scale=1]{../../../../final/imag6.jpg} 
-\begin{center}
-Figura 1.Angulos del robot
-\end{center}
-Se realizó el boceto 2D el cual se realizó para sacar los ángulos y la distancia del robot como se muestra en la figura 1.
-Robot antropomórfico con tres grados de libertad. El robot se moverá en X y Y, así realizando los movimientos que se le indique ya que este se le colocará las pinzas de la soldadura por encima del robot en el ultimo eslabon.
-\\
-En la parte de la tabla 3, el apartado de los (I) es el número de los eslabones que tiene el robot. La (di y i) es la distancia que tiene cada ángulo entre sí. El (0) es la rotación de los codos y articulaciones.
-Con esto obtenido se sacaron los ángulos de rotación mostrados en la tabla 1.
-\\\\
-\includegraphics[scale=1.3]{../../../../final/imag7.PNG} 
-\\\\
-Se instaló el software inventor para realizar las piezas del robot. Lo primero que se realizo fue la base figura 1.1, fue complicado el realizamiento de la misma por la forma que tiene ya que dentro se tuvo que hacer un acoplamiento para colocar el motor principal, cuenta con tres apartados para que se le coloquen los tornillos y así pueda quedar ensamblado en una superficie plana para evitar todo tipo de movimiento.
-\\\\
-\includegraphics[scale=.5]{../../../../final/imag8.png} 
-\begin{center}
-Figura 1.1 Base del robot.
-\end{center}
-La figura 1.2 consiste en una pieza que va situada sobre la base y se conectara con el motor para que despues pueda realizar una rotacion del primer eslabon.
-\newpage
-\includegraphics[scale=.47]{../../../../final/image9.png} 
-\\
-\begin{center}
-Figura 1.2 Tapadera de la base.
-\end{center}
-Tambien se realizo la simulacion del serv motor figura 1.3, para tener una idea mas precisa del ensamblado final dentro de la base y tambien colocarlo en otras partes del robot ya que este motor se utilizo para diseñar el acoplamiento de los demas grados de livertad.
-\\\\
-\includegraphics[scale=.47]{../../../../final/imag10.png} 
-\begin{center}
-Figura 1.3 Servo Motor.
-\end{center}
-
-\newpage
-Una vez teneiendo la base hecha la siguiente figura que se realizo fue la la base rotatoria figura 1.4, la cual se coloco arriba de la base, esta permite que se mueva todo el brazo en sentido rotacional y posteriormente se eleven los primeros dos eslabones en sentido vertical.
-\\\\
-\begin{center}
-\includegraphics[scale=.6]{../../../../final/img11.jpg}
-\end{center}
-\begin{center}
-Figura 1.4 Base rotatoria del primer eslabon.
-\end{center}
 
 \newpage
 \subsection*{justificacion}
@@ -172,7 +117,7 @@ Estas sustancias son fundamentalmente:
 -El aire en la zona de soldadura y su posible contaminación
 
 \begin{center}
-\includegraphics[scale=.8]{../../../../final/imag1.png}
+\includegraphics[scale=0.7]{imag1.png} 
 \end{center} 
 \begin{center}
 Figura 1. Ejemplo de factores contaminantes.
@@ -199,7 +144,7 @@ En la tabla 1 se indican los principales efectos perjudiciales derivados de la i
 Efectos agudos, crónicos, sensibilizantes, cancerígenos y teratógenos.
 
 \begin{center}
-\includegraphics[scale=1]{../../../../final/imag2.png} 
+\includegraphics[scale=1]{imag2.png}  
 \end{center}
 \begin{center}
 Grafica 1. Límites de exposición profesional de algunos humos metálicos de soldadura. (Año 2009)
@@ -211,17 +156,78 @@ Puestos de trabajo más accidentados:
 La gráfica muestra que los jornales y los carpinteros de obra gruesa, son los puestos de trabajo que con mayor frecuencia se accidentan, seguido por los enfierradores y los señaleros o rigger
 \end{flushleft}
 \begin{center}
-\includegraphics[scale=.9]{../../../../final/imag3.png} 
+\includegraphics[scale=0.9]{imag3.png}  
 \end{center}
 \begin{center}
 Grafica 2. Porcentaje de accidentes por puestos de trabajo.
 \end{center}
 
-\includegraphics[scale=1.2]{../../../../final/imag4.png} 
+\includegraphics[scale=1.3]{imag4.png}  
 
 \begin{center}
 Tabla 1. Efectos patológicos característicos de algunos contaminantes frecuentes en los humos de la soldadura. (Orientativa)
 \end{center}
+
+\newpage
+
+Desarrollo.
+\\\\
+
+Para el brazo se presenta una articulación con movimiento rotacional y dos angulares. Aunque el brazo articulado pueda realizar el movimiento llamado interpolación lineal (para lo cual requiere mover simultáneamente dos o tres de sus articulaciones), el movimiento natural es el de interpolación por articulación, tanto de rotacional como angular.
+\\
+Se denomina cinemática directa a una técnica que es utilizada en gráficos 3D por computadora, para solucionar y calcular la posicion de partes de una estructura articulada a partir de sus elementos fijos y las transformaciones que se provocan por las articulaciones de la estructura.
+\\\\
+La cinemática inversa se refiere a la utilización de las ecuaciones cinemáticas de un robot
+para determinar los parámetros comunes que proporcionan una posicion deseada del efector
+final.
+\\
+Especificación del movimiento de un robot de manera que su extremo efector logra una
+tarea deseada es conocido como planificación de movimientos. La cinemática inversa transforma el plan de movimiento en trayectorias del actuador en conjuntos para el robot.
+\\\\
+\includegraphics[scale=1]{imag6.jpg} 
+\begin{center}
+Figura 1.Angulos del robot
+\end{center}
+Se realizó el boceto 2D el cual se realizó para sacar los ángulos y la distancia del robot como se muestra en la figura 1.
+Robot antropomórfico con tres grados de libertad. El robot se moverá en X y Y, así realizando los movimientos que se le indique ya que este se le colocará las pinzas de la soldadura por encima del robot en el ultimo eslabon.
+\\
+En la parte de la tabla 3, el apartado de los (I) es el número de los eslabones que tiene el robot. La (di y i) es la distancia que tiene cada ángulo entre sí. El (0) es la rotación de los codos y articulaciones.
+Con esto obtenido se sacaron los ángulos de rotación mostrados en la tabla 1.
+
+\begin{center}
+\includegraphics[scale=1]{imag7.PNG}
+\end{center}
+
+Se instaló el software inventor para realizar las piezas del robot. Lo primero que se realizo fue la base figura 1.1, fue complicado el realizamiento de la misma por la forma que tiene ya que dentro se tuvo que hacer un acoplamiento para colocar el motor principal, cuenta con tres apartados para que se le coloquen los tornillos y así pueda quedar ensamblado en una superficie plana para evitar todo tipo de movimiento.
+\\\\
+\includegraphics[scale=0.5]{imag8.png} 
+\begin{center}
+Figura 1.1 Base del robot.
+\end{center}
+La figura 1.2 consiste en una pieza que va situada sobre la base y se conectara con el motor para que despues pueda realizar una rotacion del primer eslabon.
+\newpage
+\includegraphics[scale=0.47]{image9.png}  
+\\
+\begin{center}
+Figura 1.2 Tapadera de la base.
+\end{center}
+Tambien se realizo la simulacion del serv motor figura 1.3, para tener una idea mas precisa del ensamblado final dentro de la base y tambien colocarlo en otras partes del robot ya que este motor se utilizo para diseñar el acoplamiento de los demas grados de livertad.
+\\\\
+\includegraphics[scale=0.47]{imag10.png} 
+\begin{center}
+Figura 1.3 Servo Motor.
+\end{center}
+
+\newpage
+Una vez teneiendo la base hecha la siguiente figura que se realizo fue la la base rotatoria figura 1.4, la cual se coloco arriba de la base, esta permite que se mueva todo el brazo en sentido rotacional y posteriormente se eleven los primeros dos eslabones en sentido vertical.
+\\\\
+\begin{center}
+\includegraphics[scale=0.5]{img11.jpg} 
+\end{center}
+\begin{center}
+Figura 1.4 Base rotatoria del primer eslabon.
+\end{center}
+
 
 \newpage
 Matriz de posibles materiales y costos
@@ -230,17 +236,27 @@ Matriz de roles
 \\\\
 Diagrama GANTT de tiempos y actividades
 \\\\
-\includegraphics[scale=1.2]{../../../../final/imag5.PNG} 
+\includegraphics[scale=1.3]{imag5.PNG}  
 \\\\
 Conclusiones
 \\\\
-MARTIN BARAJAS
+Martin Barajas.
 \\\\
 Realizar la parte de las piezas fue poco tedioso ya que algunas son complicadas a la hora de realizarlas. El programa que se utilizo para las piezas fue inventor, se comenzo por hacer la base la cual me llevo un tiempo porque la figura tiene muchos vertices pero con algo de ayuda  e investigacion se logro realizar esta pieza tambien a la hora de hacer los ensambles nos fue dificil porque algunas piezas no quedaban en su posocion y eso nos hizo regresarnos al boceto y reacomodar las medidas. 
 \\\\
-Leonardo Fabian
+Leonardo Contreras. 
 \\\\
 la parte mas fundamental de nuestro proyecto fue realisar el analisis de elementos finitos ya que este analisis nos desia si el brazo robotico era capas de soportar el peso que nosotros nesesitavamos y saber en que lugar de la estructura habria una falla. al descubrir las fallas rediseñabamos la pieza para que esta distribullera mejor el peso en todos los componentes del brazo.
+\\\\\\\\
+John Negrete.
+\\\\
+Una de la razones por las cules se decidio hacer este robot con el material de plastico PLA fue para ahorrar por si habia una falla, al analizar los materiales se decidio plastico PLA por su resistencia ya que no un material que se deforme o pierda su resistencia .
+\\\\
+Las piezas en mi punto de vista  estubieron  dificiles por que no teniamos experiencia previa en hacerlas con las medidas exactas, en clase de diseño y seleccion de elementos mecanicos el maestro de dibujo nos asesoro con algunas piezas.
+\\\\
+Al final ensamblar las piezas en inventor fue dificil pero ya en fisico despues de mandar a imprimir las piezas fue mas sensillo solo tubimos un problemas, los motores no entraban, quedaron mas grandes de lo que esperabamos y tubimos que hacerle un recorte nosotros un robot sin duda dificil pero con empeño logramos hacerlo 
+\\\\\\\\
+Benjamin Enciso.
 \newpage
 Bibliografía
 \\
@@ -255,8 +271,8 @@ Es un plan de trabajo o un plan de actividades, que muestra la duración del pro
 \end{flushleft}
 
 \begin{center}
-\includegraphics[scale=1]{../../../../final/imag11.PNG}
+\includegraphics[scale=1]{imag11.PNG} 
 \end{center}
-
+ 
 
 \end{document}
